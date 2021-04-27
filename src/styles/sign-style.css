@@ -1,0 +1,146 @@
+.sign-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    height: 100vh;
+    background-color: black;
+}
+.sign-header {
+    color:white
+}
+
+.icon-wrapper {
+    width: 60px;
+    border-radius: 100%;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.content-wrapper {
+    width: 420px;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.checkbox-remember-me {
+    width: 18px;
+    height: 18px;
+    margin-left: 0;
+}
+
+.icon-lock {
+    padding: 15px;
+}
+
+.text-input {
+    background-color: black;
+    color: grey;
+    border: 1px solid grey;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.button-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-button {
+    background-color: skyblue;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.link-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.flex-end {
+    justify-content: flex-end;
+
+}
+
+.link-wrapper a {
+    color:skyblue;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.name-input-wpapper {
+    display: flex;
+}
+
+.name-input-wpapper input {
+    width: 50%;
+}
+
+.copyright {
+    color: grey;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 45px;
+}
+
+/* checkbox */
+.checkbox-remember-me {
+    display: flex;
+    align-items:center;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    width: 70%;
+    color: white;
+    font-size: 14px;
+}
+
+.checkbox-remember-me input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: black;
+    border: 1px solid white;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .checkbox-remember-me input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .checkbox-remember-me .checkmark:after {
+    left: 30%;
+    top: 15%;
+    width: 5px;
+    height: 6px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
