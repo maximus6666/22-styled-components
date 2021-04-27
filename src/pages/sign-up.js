@@ -78,7 +78,7 @@ export default class SignUpPage extends React.Component {
         <div className="button-wrapper">
           <button className="sign-button">Sign Up</button>
           <div className="link-wrapper flex-end">
-            <Link to="22-styled-components/sign-in">Already have an account? Sign in</Link>
+            <Link to="/22-styled-components/">Already have an account? Sign in</Link>
           </div>
         </div>
         <p className="copyright">Copyright © Your Website 2021</p>

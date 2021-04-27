@@ -6,17 +6,21 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
+  // useRouteMatch,
 } from "react-router-dom";
 
 function App() {
+  // let { path, url } = useRouteMatch();
+
+// console.log(11111111111111111,path, url);
   return (
     <div className="App">
       <Router>
         <Switch>
-          <Route path="/sign-in">
+          <Route exact path="/22-styled-components/">
             <SignInPage/>
           </Route>
-          <Route path="/sign-up">
+          <Route path="22-styled-components/sign-up">
             <SignUpPage/>
           </Route>
         </Switch>
