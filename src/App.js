@@ -20,7 +20,7 @@ function App() {
           <Route exact path="/22-styled-components/">
             <SignInPage/>
           </Route>
-          <Route path="22-styled-components/sign-up">
+          <Route path="/sign-up">
             <SignUpPage/>
           </Route>
         </Switch>

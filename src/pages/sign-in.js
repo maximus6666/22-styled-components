@@ -63,7 +63,7 @@ export default class SignInOage extends React.Component {
           <button className="sign-button">Sign in</button>
           <div className="link-wrapper">
             <Link>Forgot password?</Link>
-            <Link to={`22-styled-components/sign-up`}>Dont have an account? Sign up</Link>
+            <Link to={`/sign-up`}>Dont have an account? Sign up</Link>
           </div>
         </div>
         <p className="copyright">Copyright © Your Website 2021</p>
